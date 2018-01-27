@@ -1,0 +1,41 @@
+{
+    "name": "buzzingpixel/placeholder-field-ee",
+    "version": "1.0.0",
+    "description": "Fieldtype that displays a custom message",
+    "type": "ee-add-on",
+    "authors": [
+        {
+            "name": "TJ Draper",
+            "email": "tj@buzzingpixel.com",
+            "homepage": "https://buzzingpixel.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:tjdraper/expressionengine.git"
+        }
+    ],
+    "require-dev": {
+        "roave/security-advisories": "dev-master",
+        "tjdraper/expressionengine": "^4.0.6"
+    },
+    "autoload": {
+        "psr-0": {
+            "stats": "",
+            "EllisLab\\" : "libraries/ExpressionEngine/system/ee/EllisLab/"
+        },
+        "psr-4": {
+            "buzzingpixel\\placeholderfield\\": "placeholder_field/"
+        }
+
+    },
+    "extra": {
+        "handle": "placeholder_field",
+        "systemPath": "placeholder_field"
+    }
+}

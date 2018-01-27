@@ -1,0 +1,79 @@
+.placeholder-field-wrapper {
+    background-color: #f7f7f7;
+    border: 1px solid #dadada;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.placeholder-field-wrapper h1,
+.placeholder-field-wrapper h2,
+.placeholder-field-wrapper h3,
+.placeholder-field-wrapper h4,
+.placeholder-field-wrapper h5,
+.placeholder-field-wrapper h6 {
+    background: none;
+    border: 0;
+    color: #333;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.placeholder-field-wrapper h1 {
+    font-size: 30px;
+}
+
+.placeholder-field-wrapper h2 {
+    font-size: 25px;
+}
+
+.placeholder-field-wrapper h3 {
+    font-size: 22px;
+}
+
+.placeholder-field-wrapper h4 {
+    font-size: 20px;
+}
+
+.placeholder-field-wrapper h5 {
+    font-size: 18px;
+}
+
+.placeholder-field-wrapper h6 {
+    font-size: 16px;
+}
+
+.placeholder-field-wrapper h1:first-child,
+.placeholder-field-wrapper h2:first-child,
+.placeholder-field-wrapper h3:first-child,
+.placeholder-field-wrapper h4:first-child,
+.placeholder-field-wrapper h5:first-child,
+.placeholder-field-wrapper h6:first-child,
+.placeholder-field-wrapper p:first-child,
+.placeholder-field-wrapper ul:first-child,
+.placeholder-field-wrapper ol:first-child {
+    margin-top: 0;
+}
+
+.placeholder-field-wrapper h1:last-child,
+.placeholder-field-wrapper h2:last-child,
+.placeholder-field-wrapper h3:last-child,
+.placeholder-field-wrapper h4:last-child,
+.placeholder-field-wrapper h5:last-child,
+.placeholder-field-wrapper h6:last-child,
+.placeholder-field-wrapper p:last-child,
+.placeholder-field-wrapper ul:last-child,
+.placeholder-field-wrapper ol:last-child {
+    margin-bottom: 0;
+}
+
+.placeholder-field-wrapper ul,
+.placeholder-field-wrapper ol {
+    list-style-position: outside;
+    margin-left: 20px;
+}
+
+.placeholder-field-wrapper em {
+    display: inline;
+}
