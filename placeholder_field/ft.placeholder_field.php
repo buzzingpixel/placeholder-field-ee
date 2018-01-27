@@ -1,6 +1,12 @@
 <?php
 
 /**
+ * @author TJ Draper <tj@buzzingpixel.com>
+ * @copyright 2018 BuzzingPixel, LLC
+ * @license http://www.apache.org/licenses/LICENSE-2.0
+ */
+
+/**
  * Class Placeholder_field_ft
  */
 class Placeholder_field_ft extends EE_Fieldtype
